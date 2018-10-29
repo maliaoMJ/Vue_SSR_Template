@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     simple Vue SSR Template
+    <h1><i class="fa fa-home"/></h1>
   </section>
 </template>
 
