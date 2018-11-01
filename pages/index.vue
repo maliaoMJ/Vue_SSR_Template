@@ -8,7 +8,7 @@
           v-for="banner in banners"
           :key="banner"
           class="swiper-slide">
-          <img :src="banner">
+          <img v-lazy="banner">
         </div>
       </div>
       <div class="swiper-pagination"/>
