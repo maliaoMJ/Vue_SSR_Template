@@ -43,7 +43,8 @@ module.exports = {
   plugins: [
     '@/plugins/element-ui',
     { src: '@/plugins/swiper', ssr: false },
-    { src: '@/plugins/vue-lazyload', ssr: false }
+    { src: '@/plugins/vue-lazyload', ssr: false },
+    { src: '@/plugins/vue-vivus', ssr: false }
   ],
 
   /*
