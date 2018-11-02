@@ -40,6 +40,11 @@ export default {
         }
       }
     }
+  },
+  mounted() {
+    this.$axios.get('/city/list').then(res => {
+      console.log(res)
+    })
   }
 }
 </script>
