@@ -1,7 +1,7 @@
 const Router = require('koa-router');
 
 const router = new Router({
-  prefix: '/city'
+  prefix: '/api/city'
 });
 
 router.get('/list', async (ctx, next) => {
