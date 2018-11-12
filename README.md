@@ -5,17 +5,17 @@
 ## Build Setup
 
 ``` bash
-# install dependencies
+# 安装依赖
 $ yarn install
 
-# serve with hot reload at localhost:3000
+# 启动开发环境 热加载等等
 $ yarn run dev
 
-# build for production and launch server
+# 构建生产环境
 $ yarn run build
 $ yarn start
 
-# generate static project
+# 构建静态网站页面
 $ yarn run generate
 ```
 
